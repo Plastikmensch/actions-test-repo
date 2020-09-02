@@ -1,0 +1,13 @@
+name: ESLint
+on: push
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: plastikmensch/eslint-check-action@testing
+      with:
+        ghToken: ${{ secrets.GITHUB_TOKEN }}
+        eslintFiles: "src"
+        eslintConfig: ".eslintrc.json"
+        eslintExt: "js"
