@@ -1,0 +1,19 @@
+{
+  "name": "actions-test-repo",
+  "version": "1.0.0",
+  "description": "testing gh-actions",
+  "main": "eslint.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plastikmensch/actions-test-repo.git"
+  },
+  "author": "Plastikmensch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plastikmensch/actions-test-repo/issues"
+  },
+  "homepage": "https://github.com/Plastikmensch/actions-test-repo#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1"
+  }
+}
